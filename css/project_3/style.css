@@ -1,0 +1,110 @@
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-image: url("Background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Main content layout */
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  /* position: relative; */
+}
+
+.contant {
+  flex: 1;
+  z-index: 2;
+}
+
+.contant h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: darkviolet;
+  margin-bottom: 0.5rem;
+  letter-spacing: -2px;
+}
+
+.contant p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+
+/* Image section styling */
+.image-container {
+  flex: 0 0 45%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 500px;
+  /* height: 500px; */
+  object-fit: cover;
+  /* border-radius: 20px; */
+  position: relative;
+  /* z-index: 1; */
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); */
+  /* transition: transform 0.3s ease; */
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  /* border-bottom: 2px solid #f0f0f0; */
+  padding-bottom: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #666;
+  font-weight: lighter;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav a.active {
+  color: #8b5a9f;
+  background: rgba(139, 90, 159, 0.1);
+}
+
+.nav a:hover {
+  color: #fff;
+  background: orangered;
+}
+
+/* Main card content */
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+}
+.card {
+  background-color: rgba(240, 248, 255, 0.414);
+  /* width: 50rem;
+  height: 30rem; */
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
