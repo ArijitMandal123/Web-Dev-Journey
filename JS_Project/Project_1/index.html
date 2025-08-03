@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="all">
+      <div class="card">
+        <div class="header">
+          <h1 class="title">
+            <img
+              src="Akatsuki-Download-Free-PNG.png"
+              style="width: 60px; height: auto; margin-right: 10px"
+              alt=""
+            />TO-DO LIST
+          </h1>
+        </div>
+
+        <div class="input-section">
+          <input
+            type="text"
+            class="task-input"
+            placeholder="Add a task"
+            id="taskInput"
+          />
+          <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+
+        <div class="old-tasks">
+          <ul class="todo-list" id="todoList"></ul>
+        </div>
+      </div>
+      <img
+        src="./Akatsuki-PNG-Pic-Background.png"
+        alt=""
+        class="Akatsuki-img"
+      />
+    </div>
+  </body>
+</html>
